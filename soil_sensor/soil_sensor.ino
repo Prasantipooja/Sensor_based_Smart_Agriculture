@@ -33,6 +33,8 @@ void loop() {
     delay(2000); // Wait before next reading
 }
 
+
+
 // Function to send SMS (Replace with actual GSM module function)
 void sendSMS(const char* number, const char* message) {
     Serial.print("Sending SMS to ");
